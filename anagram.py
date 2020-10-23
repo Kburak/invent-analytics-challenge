@@ -31,8 +31,6 @@ def is_anagram(a, b):
         str2_remove = len(b) - value
         return f"Remove {str1_remove} characters from '{a}', {str2_remove} characters from '{b}'"
 
-    # Driver program
-
 
 if __name__ == "__main__":
     str1 = input('Enter First String')

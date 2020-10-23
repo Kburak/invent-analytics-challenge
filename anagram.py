@@ -1,3 +1,5 @@
+from collections import Counter
+
 
 def is_anagram(a, b):
     """Lowercase the strings prevent Uppercase problems"""
